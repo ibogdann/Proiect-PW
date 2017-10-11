@@ -1,0 +1,61 @@
+ul {list-style:none;}
+body {background:#fff; font:11px Verdana, Arial, Helvetica, sans-serif; color:#333;}
+#topbar {background-color:#CAA205; height: 30px;}
+#topbar li {
+	display: inline;
+}
+#topbar ul {
+	display: block;
+	padding-left: 50%;
+	padding-top: 0.5%;
+}
+#topbar a {
+	color: black;
+	display: block;
+	float: right;
+	padding-top: 0.5%;
+	padding-right: 0.5%;
+	padding-left: 0.5%;
+	margin-right: 0.3%;
+	margin-left: 0.3%;
+	text-decoration: none;
+	height: 10%;
+}
+#imagine {
+	display:block;
+	height:70%;
+	width:70%;
+	padding-left:15%;
+	padding-right:15%;
+	padding-top:0.5%;
+	background-color:grey;
+	padding-bottom:0.5%;
+}
+#actions {
+	display: flex;
+	background-color: grey;
+	padding: 0.5%;
+}
+#formular {
+	flex: 0 0 60%;
+	padding: 0.5%;
+	background-color: aqua;
+}
+#user {
+	flex: 1;
+	background-color: #CAA205;
+	padding: 0.5%;
+	display: flex;
+}
+#login {
+	flex: 0.5;
+	border: solid;
+	padding-right: 0.5;
+	padding: 0.5;
+}
+#create {
+	flex: 0.5;
+	border: solid;
+	padding-left: 0.5;
+	padding: 0.5;
+}
